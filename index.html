@@ -496,7 +496,7 @@ whatsapp</a
                 <div class="tc wf xf kg cc">
                   <h2
                     :class="plan.name == 'Basic' ? 'text-green-500' : ''"
-                    x-text="`$${billPlan == 'monthly' ? plan.price.monthly : plan.price.annually}`"
+                    x-text="`$ ريال {billPlan == 'monthly' ? plan.price.monthly : plan.price.annually}`"
                     class="fk _j kk wm"
                   ></h2>
                   <span x-text="billPlan == 'monthly' ? '/per month' : '/per year'" class="sc ak kk wm"></span>
